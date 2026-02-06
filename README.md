@@ -5,12 +5,12 @@ Corresponding Paper: Oxygen Availability Shapes Eukaryotic Plankton Assembly and
 Authors:Fuchao Zheng , Wendian Zhu , Jinghan Zhang , Shenglai Yin , Qinghui You , Qiwu Hu , Chaoyang Fang , Yong Ge  , Kunlin Yang , Guofang Xu 
 Journal/Status: Ecological Informatics
 
-Brief Description: This repository contains the complete code and data used to generate all analyses, models, figures, and statistical results in the paper " Oxygen Availability Shapes Eukaryotic Plankton Assembly and Coalescences in River-Lake Ecotones". This study primarily investigates [Describe the core research content in 1-2 sentences, e.g., the impact of climate change on the distribution of a certain species].
+Brief Description: This repository contains the complete code and data used to generate all analyses, models, figures, and statistical results in the paper " Oxygen Availability Shapes Eukaryotic Plankton Assembly and Coalescences in River-Lake Ecotones". This study primarily investigates the impact of oxygen on the structure and aggregation of eukaryotic microbial communities.
 
 
 ├── README.md                   # This file
 ├── LICENSE                     # Open-source license (MIT License)
-├── .gitignore                  # Files ignored by Git
+├── Data and code.zip           # All data and code files
 │
 ├── data/                       # Data directory
 │   ├── processed/              # **Analysis-ready data** (directly used by scripts)
@@ -20,8 +20,8 @@ Brief Description: This repository contains the complete code and data used to g
 │   └── raw/                    # **Raw data** (see instructions below for access)
 │       ├── phy_OTU.txt         # OTU data
 │       ├── zoo_OTU.txt         # OTU data 
-│       ├── phy_taxa.csv        # tax data
-│       └── zoo_taxa.csv        # tax data
+│       ├── phy_taxa.csv        # taxonomy's data
+│       └── zoo_taxa.csv        # taxonomy's data
 
 
 # The code used in the article
