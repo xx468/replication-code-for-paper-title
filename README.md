@@ -1,5 +1,31 @@
 # replication-code-for-paper-title
 Code and data to reproduce the findings of Oxygen Availability Shapes Eukaryotic Plankton Assembly and Coalescences in River-Lake Ecotones
+
+Corresponding Paper: Oxygen Availability Shapes Eukaryotic Plankton Assembly and Coalescences in River-Lake Ecotones
+Authors:Fuchao Zheng a, b, Wendian Zhu a, Jinghan Zhang d, Shenglai Yin e, Qinghui You f, Qiwu Hu a, Chaoyang Fang a, Yong Ge a, *, Kunlin Yang b, Guofang Xu c, *
+Journal/Status: Ecological Informatics
+
+Brief Description: This repository contains the complete code and data used to generate all analyses, models, figures, and statistical results in the paper " Oxygen Availability Shapes Eukaryotic Plankton Assembly and Coalescences in River-Lake Ecotones". This study primarily investigates [Describe the core research content in 1-2 sentences, e.g., the impact of climate change on the distribution of a certain species].
+
+
+├── README.md                   # This file
+├── LICENSE                     # Open-source license (MIT License)
+├── .gitignore                  # Files ignored by Git
+│
+├── data/                       # Data directory
+│   ├── processed/              # **Analysis-ready data** (directly used by scripts)
+│   │   ├── DO_data.csv         # Main dataset for analysis
+│   │   ├── zoo_diversity indice.txt    # Diverse data
+│   │   └── phy_diversity.txt           # Diverse data
+│   └── raw/                    # **Raw data** (see instructions below for access)
+│       ├── phy_OTU.txt         # OTU data
+│       ├── zoo_OTU.txt         # OTU data 
+│       ├── phy_taxa.csv        # tax data
+│       └── zoo_taxa.csv        # tax data
+
+
+# The code used in the article
+
 # Single Factor Bar Plot Code
 # Read local data
 dt <- read.csv("DO_data.csv", header = TRUE)
