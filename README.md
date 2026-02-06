@@ -2,7 +2,7 @@
 Code and data to reproduce the findings of Oxygen Availability Shapes Eukaryotic Plankton Assembly and Coalescences in River-Lake Ecotones
 
 Corresponding Paper: Oxygen Availability Shapes Eukaryotic Plankton Assembly and Coalescences in River-Lake Ecotones
-Authors:Fuchao Zheng a, b, Wendian Zhu a, Jinghan Zhang d, Shenglai Yin e, Qinghui You f, Qiwu Hu a, Chaoyang Fang a, Yong Ge a, *, Kunlin Yang b, Guofang Xu c, *
+Authors:Fuchao Zheng , Wendian Zhu , Jinghan Zhang , Shenglai Yin , Qinghui You , Qiwu Hu , Chaoyang Fang , Yong Ge  , Kunlin Yang , Guofang Xu 
 Journal/Status: Ecological Informatics
 
 Brief Description: This repository contains the complete code and data used to generate all analyses, models, figures, and statistical results in the paper " Oxygen Availability Shapes Eukaryotic Plankton Assembly and Coalescences in River-Lake Ecotones". This study primarily investigates [Describe the core research content in 1-2 sentences, e.g., the impact of climate change on the distribution of a certain species].
